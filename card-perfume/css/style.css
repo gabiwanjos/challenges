@@ -34,7 +34,7 @@
     .section-img{
         background: white url(../images/image-product-mobile.jpg);
         background-size: cover;
-        width: 400px;
+        width: 360px;
         height: 270px;
         border-radius: 10px 10px 0px 0px;    
     }
@@ -44,9 +44,9 @@
         align-items: center;
         background-color: white;
         border-radius: 0px 0px 10px 10px;
-        width: 400px;
+        width: 360px;
         height: 440px;
-        padding: 30px;  
+        padding: 18px;  
     }
 
     .perfume{
@@ -55,13 +55,13 @@
         color: hsla(228, 12%, 48%, 0.842);
         font-size: 16px;
         letter-spacing: 8px;
-        padding-bottom: 10px;
+        padding-bottom: 20px;
     }
     
     .texto{
         font-family: "Fraunces";
         font-weight: bolder;
-        font-size: 40px;
+        font-size: 35px;
         letter-spacing: 2px;
         color: hsl(212, 21%, 14%);
     }
