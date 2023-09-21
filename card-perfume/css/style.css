@@ -1,0 +1,213 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+    box-sizing: border-box;
+    
+}
+
+@media screen and (min-width: 360px) and (max-width: 1200px) {
+    body{
+        background-color: hsl(30, 38%, 92%);
+        display: flex;
+        align-items: center;
+        justify-content: center;         
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    main{
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-img{
+        background: white url(../images/image-product-mobile.jpg);
+        background-size: cover;
+        width: 400px;
+        height: 270px;
+        border-radius: 10px 10px 0px 0px;    
+    }
+
+    .section{
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border-radius: 0px 0px 10px 10px;
+        width: 400px;
+        height: 440px;
+        padding: 30px;  
+    }
+
+    .perfume{
+        font-family: "Montserrat";
+        font-weight: 500;
+        color: hsla(228, 12%, 48%, 0.842);
+        font-size: 16px;
+        letter-spacing: 8px;
+        padding-bottom: 10px;
+    }
+    
+    .texto{
+        font-family: "Fraunces";
+        font-weight: bolder;
+        font-size: 40px;
+        letter-spacing: 2px;
+        color: hsl(212, 21%, 14%);
+    }
+    
+    .descrição{
+        font-family: "Montserrat";
+        padding-top: 15px;
+        padding-bottom: 20px;
+        color: hsla(228, 12%, 48%, 0.842);
+        font-size: 18px;
+        font-weight: light;
+        letter-spacing: 2px;
+    }
+    
+    .price{
+        font-family: "Fraunces";
+        font-size: 40px;
+        color: hsl(158, 36%, 37%);  
+    }
+    
+    .price-small{
+        padding-left: 50px;
+        padding-right: 0px;
+        color: hsla(228, 12%, 48%, 0.842);
+        text-decoration: line-through;    
+    }
+    
+    .button{
+        padding-left: 15px;
+        padding-top: 20px;
+        width: 70px;
+    }
+    
+    button{
+        width: 290px;
+        height: 50px;
+        border-radius: 9px;
+        font-size: 18px;
+        font-family: "Montserrat";
+        font-weight: 700;
+        color: white;
+        background-color: hsl(158, 36%, 37%);
+        border: none;
+    }
+    
+    button:hover{
+        background-color:  hsl(158, 20%, 47%);;
+        color: white;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.section-img{
+    background: white url(../images/image-product-desktop.jpg);
+    background-size: contain;
+    width: 360px;
+    height: 540px;
+    border-radius: 10px 0px 0px 10px;    
+}
+
+.section{
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+    width: 400px;
+    height: 540px;
+    padding: 40px;   
+}
+
+.perfume{
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: hsla(228, 12%, 48%, 0.842);
+    font-size: 16px;
+    letter-spacing: 8px;
+    padding-bottom: 16px;
+}
+
+.texto{
+    font-family: "Fraunces";
+    font-weight: bolder;
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: hsl(212, 21%, 14%);
+}
+
+.descrição{
+    font-family: "Montserrat";
+    padding-top: 15px;
+    padding-bottom: 39px;
+    color: hsla(228, 12%, 48%, 0.842);
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.price{
+    font-family: "Fraunces";
+    font-size: 40px;
+    color: hsl(158, 36%, 37%);  
+}
+
+.price-small{
+    padding-left: 50px;
+    padding-right: 0px;
+    color: hsla(228, 12%, 48%, 0.842);
+    text-decoration: line-through;    
+}
+
+.button{
+    padding-left: 10px;
+    padding-top: 37px;
+    width: 50px;
+}
+
+button{
+    width: 280px;
+    height: 54px;
+    border-radius: 9px;
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+}
+
+button:hover{
+    background-color:  hsl(158, 20%, 47%);;
+    color: white;
+}
+
+}
