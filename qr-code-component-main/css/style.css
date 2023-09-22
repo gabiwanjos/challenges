@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+@media screen and (min-width: 370px) and (max-width: 480px) {  
+
+
+    
+.img{
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 23rem;
+    width: 23rem;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.qr-code{
+    width: 21rem;
+    height: 21rem;
+    border-radius: 10px;    
+}
+
+.text{
+    background-color: white;
+    width: 23rem;
+    height: 12rem;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.title{
+    padding-top: 10px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+}
+
+.description{
+    text-align: center;
+    padding-top: 17px;
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+}
+
+@media screen and (min-width:481px) and (max-width: 2000px) {
+    .img{
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        height: 23rem;
+        width: 23rem;
+        border-radius: 20px 20px 0px 0px;
+    }
+    
+    .qr-code{
+        width: 21rem;
+        height: 21rem;
+        border-radius: 10px;    
+    }
+    
+    .text{
+        background-color: white;
+        width: 23rem;
+        height: 12rem;
+        border-radius: 0px 0px 20px 20px;
+    }
+    
+    .title{
+        padding-top: 10px;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 700;
+        font-size: 17px;
+        text-align: center;
+        color: hsl(218, 44%, 22%);
+    }
+    
+    .description{
+        text-align: center;
+        padding-top: 17px;
+        font-size: 16px;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 400;
+        color: hsl(220, 15%, 55%);
+    } 
+}
