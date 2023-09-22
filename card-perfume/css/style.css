@@ -44,7 +44,7 @@
         background-color: white;
         border-radius: 0px 0px 10px 10px;
         width: 20rem;
-        height: 29rem;
+        height: 26rem;
         padding: 18px;  
     }
 
@@ -60,7 +60,7 @@
     .texto{
         font-family: "Fraunces";
         font-weight: bolder;
-        font-size: 35px;
+        font-size: 28px;
         letter-spacing: 2px;
         color: hsl(212, 21%, 14%);
     }
@@ -90,7 +90,7 @@
     
     .button{
         
-        padding-top: 20px;
+        padding-top: 17px;
         width: 70px;
     }
     
