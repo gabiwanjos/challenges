@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@media screen and (min-width:370px) and (max-width: 900px) {
+      
+body{
+    background-color:  hsl(257, 40%, 49%);
+    background-image: url(../images/bg-desktop.svg);
+    background-repeat: repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+
+.logo{
+    width: 8rem;   
+    margin-right: 190px;
+    padding-bottom: 150px;
+
+}
+
+.imagem{
+    width: 20rem;
+
+}
+
+.text{
+    padding-top: 40px;
+    width: 20rem;
+    height: 20rem;
+    color: white;
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+.title{
+   
+    
+}
+
+.icones{
+    
+}
+
+
+}
+
+
+
+
