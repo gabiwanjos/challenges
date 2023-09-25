@@ -41,7 +41,7 @@ main{
 
 .imagem{
     width: 18.7rem;
-    margin-top: 0.4rem;   
+    margin-top: 0.3rem;   
 }
 
 .text{
@@ -83,7 +83,7 @@ button{
 }
 
 button:hover{
-    color: hsl(300, 69%, 71%);
+    background-color: hsl(300, 69%, 71%);
 }
 
 .icon{
@@ -109,13 +109,12 @@ button:hover{
     width: 2rem;
     height: 2rem;
     padding-top: 0.4rem;
-    padding-left: 0.5rem ;
+    padding-left: 0.6rem;
     border: 1px solid white;
     border-radius: 50%;
 }
 
 .twitter{
-   
     width: 2rem;
     height: 2rem;
     padding-top: 0.4rem;
