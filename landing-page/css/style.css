@@ -16,56 +16,112 @@ body{
     background-image: url(../images/bg-mobile.svg);
     background-repeat: no-repeat;
     background-position: top;
+    
 }
 
 main{
     flex-direction: column;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.bloco{
-    flex-direction: column;
-    display: flex;
-    margin: 0;
-    justify-content: space-evenly;
-}
 
-.block1{
-    display: flex;
-    padding-top: 1rem;
-    
-}
 
+.cabecalho{
+    display: flex;
+    padding-left: 3rem;
+    padding-bottom: 60px;
+    margin-top: 30px;  
+
+}
 .logo{
-    width: 7rem;
-}
-
-.block2{
-    
+    width: 7.5rem;      
 }
 
 .imagem{
     width: 18.7rem;
+    margin-top: 0.4rem;   
+}
+
+.text{
+    gap: 2rem;
 }
 
 .title{
+    margin: 0 1rem 0 1rem;
     text-align: center;
     color: white;
     font-family: 'Poppins';
     font-weight: 600;
-    padding-top: 5rem ;    
+    padding-top: 4rem ; 
+    padding-bottom: 1rem;   
 }
 
 .description{
+    margin: 0 1rem 0 1rem;
     text-align: center;
     color: white;
     font-family: 'Poppins';
     font-weight: 400;
 }
 
+.register{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 1.5rem;
+}
 
+button{
+    width: 14rem;
+    height: 2.5rem;
+    font-family: 'Poppins';
+    color: hsl(257, 40%, 49%);
+    border-radius: 2rem;
+    border: none;
+}
+
+button:hover{
+    color: hsl(300, 69%, 71%);
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    color: white;
+}
+
+.instagram{
+    
+    width: 2rem;
+    height: 2rem;
+    padding-top: 0.4rem;
+    padding-left: 0.5rem ;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.facebook{
+    margin-right: 2rem ;
+    margin-left: 2rem;
+    width: 2rem;
+    height: 2rem;
+    padding-top: 0.4rem;
+    padding-left: 0.5rem ;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.twitter{
+   
+    width: 2rem;
+    height: 2rem;
+    padding-top: 0.4rem;
+    padding-left: 0.5rem ;
+    border: 1px solid white;
+    border-radius: 50%;
+}
 
 }
