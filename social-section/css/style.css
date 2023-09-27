@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@media (max-width: 767px) {
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: url(../images/bg-pattern-top-mobile.svg);
+    background-repeat: no-repeat;
+    /* display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center; **/
+}
+
+main{
+    display: grid;
+    row-gap: 1rem;
+    font-family: 'League Spartan';
+}
+
+.begin{
+    display: grid;
+    row-gap: 2rem;
+}
+
+.second{
+    display: grid;
+}
+
+.title{
+    margin-top: 3rem;
+    font-weight: 700;
+    font-size: 2.7rem;
+    text-align: center;
+    color: hsl(300, 43%, 22%);
+}
+
+.paragraph{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: hsl(303, 10%, 53%);
+    text-align: center;
+}
+
+.stars{
+    padding-bottom: 1rem;
+}
+
+.star2{
+    padding-right: 0.3rem;
+    padding-left: 0.3rem;
+}
+
+.star3{
+   padding-right: 0.2rem;
+   padding-left: 0.2rem;
+}
+
+.star4{
+    padding-right: 0.3rem;
+    padding-left: 0.3rem;
+}
+
+.review{
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1rem;
+    color: hsl(300, 43%, 22%);
+    background-color:  hsl(300, 24%, 96%);
+    padding: 0.7rem;
+    width: 24rem;
+    height: 5rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+
+.guru{
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1rem;
+    color: hsl(300, 43%, 22%);
+    background-color: hsl(300, 24%, 96%);
+    padding: 0.7rem;
+    width: 24rem;
+    height: 5rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+
+.best-tech{
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1.3rem;
+    color: hsl(300, 43%, 22%);
+    background-color:  hsl(300, 24%, 96%);
+    padding: 0.7rem;
+    width: 24rem;
+    height: 5rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+
+.block{
+    background-color: hsl(300, 43%, 22%);
+    width: 24.4rem;
+    height: 17rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-left: 0.8rem;
+}
+
+.person{
+    display: flex;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.sub{
+    color: hsl(333, 80%, 67%);
+    padding-top: 0.4rem;
+    font-weight: 400;
+}
+
+.name{
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding-top: 0.4rem;
+    padding-left: 1.4rem;
+}
+
+.photo{
+    border-radius: 50%;
+    width: 3.3rem;
+}
+
+.text{
+    padding-top: 2.3rem;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 1.3rem;
+    font-size: 1.35rem;
+}
+.final{
+    background: url(../images/bg-pattern-bottom-mobile.svg);
+}
+
+}
