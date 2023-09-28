@@ -50,6 +50,8 @@ main{
     font-weight: 500;
     color: hsl(303, 10%, 53%);
     text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .stars{
@@ -80,7 +82,8 @@ main{
     padding: 0.7rem;
     width: 24rem;
     height: 5rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
+    margin-right: 0.5rem;
     border-radius: 1rem;
     font-size: 1rem;
 }
@@ -94,7 +97,8 @@ main{
     padding: 0.7rem;
     width: 24rem;
     height: 5rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
+    margin-right: 0.5;
     border-radius: 1rem;
     font-size: 1rem;
 }
@@ -109,7 +113,8 @@ main{
     padding: 0.7rem;
     width: 24rem;
     height: 5rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
+    margin-right: 0.5rem;
     border-radius: 1rem;
     font-size: 1rem;
 }
@@ -120,7 +125,7 @@ main{
     height: 17rem;
     border-radius: 1rem;
     margin-top: 1rem;
-    margin-left: 0.8rem;
+    margin-left: 1.5rem;
 }
 
 .person{
@@ -155,8 +160,13 @@ main{
     padding-right: 1.3rem;
     font-size: 1.35rem;
 }
-.final{
-    background: url(../images/bg-pattern-bottom-mobile.svg);
-}
 
+.bottom{
+    background: url(../images/bg-pattern-bottom-mobile.svg);
+    height: 6rem;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 }
