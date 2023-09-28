@@ -82,7 +82,7 @@ main{
     padding: 0.7rem;
     width: 23rem;
     height: 5rem;
-    margin-left: 1.34rem;
+    margin-left: 1.2rem;
     margin-right: 0.5rem;
     border-radius: 1rem;
     font-size: 1rem;
@@ -97,7 +97,7 @@ main{
     padding: 0.7rem;
     width: 23rem;
     height: 5rem;
-    margin-left: 1.34rem;
+    margin-left: 1.2rem;
     margin-right: 0.5;
     border-radius: 1rem;
     font-size: 1rem;
@@ -113,7 +113,7 @@ main{
     padding: 0.7rem;
     width: 23rem;
     height: 5rem;
-    margin-left: 1.34rem;
+    margin-left: 1.2rem;
     margin-right: 0.5rem;
     border-radius: 1rem;
     font-size: 1rem;
@@ -167,6 +167,12 @@ main{
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
-    
+}
+}
+
+@media (min-width: 1024px) {
+
+.body{
+     
 }
 }
