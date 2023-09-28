@@ -82,7 +82,7 @@ main{
     padding: 0.7rem;
     width: 23rem;
     height: 5rem;
-    margin-left: 1.2rem;
+    margin-left: 1rem;
     margin-right: 0.5rem;
     border-radius: 1rem;
     font-size: 1rem;
@@ -97,7 +97,7 @@ main{
     padding: 0.7rem;
     width: 23rem;
     height: 5rem;
-    margin-left: 1.2rem;
+    margin-left: 1rem;
     margin-right: 0.5;
     border-radius: 1rem;
     font-size: 1rem;
@@ -113,7 +113,7 @@ main{
     padding: 0.7rem;
     width: 23rem;
     height: 5rem;
-    margin-left: 1.2rem;
+    margin-left: 1rem;
     margin-right: 0.5rem;
     border-radius: 1rem;
     font-size: 1rem;
@@ -125,7 +125,7 @@ main{
     height: 17rem;
     border-radius: 1rem;
     margin-top: 1rem;
-    margin-left: 1.3rem;
+    margin-left: 1rem;
 }
 
 .person{
