@@ -111,8 +111,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: baseline;
-    position: relative;
-    transform: translate(0%, -50%);
 }
 
 .block{
